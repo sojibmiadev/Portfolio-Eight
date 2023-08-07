@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boostrap#01</title>
+    <!-- all css link start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="images/favicon-one.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <!-- all css link end  -->
+</head>
+<body>
+    <div class="container">
+        <!-- header part start -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-success px-3 fixed-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="images/sojib.png" alt="logo" class="logo_image"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active nav_a text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_a text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_a text-white" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_a text-white" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_a text-white" href="#">Services</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- header part end  -->
+        <main>
+            <!-- carousel part start  -->
+            <section id="feedback" class="bg-light">
+                 <div class="section-title text-center mt-3">
+                    <h2>Feedback</h2>
+                    <hr class="hr-style"/>
+                </div>
+                  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="images/natural1.jpg" class="d-block w-100 imagese rounded" alt="natural">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/natural2.jpg" class="d-block w-100 imagese rounded" alt="natural2">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/natural3.jpg" class="d-block w-100 imagese rounded" alt="natuere">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+            <!-- carousel part end -->
+            <!-- service part start  -->
+            <div class="service-part bg-white mt-1">
+                <div class="servie-title text-center mb-3">
+                    <h2 class="fw-bolder">Services</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-6 p-3">
+                        <i class="fa-solid fa-handshake-angle bg-dark text-white rounded-circle mb-3 p-2 fa-2x"></i>
+                        <h3 class="text-uppercase">Responsive Web Design</h3>
+                        <p class="small text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eius obcaecati necessitatibus harum non voluptatibus cumque odio ad a quasi pariatur cupiditate quo rem nam aliquam architecto, accusantium, recusandae doloribus?</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 p-3">
+                        <i class="fa-solid fa-handshake-angle bg-dark text-white rounded-circle mb-3 p-2 fa-2x"></i>
+                        <h3 class="text-uppercase">Responsive Web Design</h3>
+                        <p class="small text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eius obcaecati necessitatibus harum non voluptatibus cumque odio ad a quasi pariatur cupiditate quo rem nam aliquam architecto, accusantium, recusandae doloribus?</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 p-3">
+                        <i class="fa-solid fa-handshake-angle bg-dark text-white rounded-circle mb-3 p-2 fa-2x"></i>
+                        <h3 class="text-uppercase">Responsive Web Design</h3>
+                        <p class="small text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eius obcaecati necessitatibus harum non voluptatibus cumque odio ad a quasi pariatur cupiditate quo rem nam aliquam architecto, accusantium, recusandae doloribus?</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 p-3">
+                        <i class="fa-solid fa-handshake-angle bg-dark text-white rounded-circle mb-3 p-2 fa-2x"></i>
+                        <h3 class="text-uppercase">Responsive Web Design</h3>
+                        <p class="small text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eius obcaecati necessitatibus harum non voluptatibus cumque odio ad a quasi pariatur cupiditate quo rem nam aliquam architecto, accusantium, recusandae doloribus?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- service part end   -->
+            <!-- about part start  -->
+            <div class="about-part bg-dark text-white">
+                <div class="about-me text-center my-3">
+                    <h2 class="fw-bold pt-3">About Me</h2>
+                </div>
+               <div class="row">
+                    <div class="col-lg-4 col-md-12 p-3 text-center">
+                        <a href="#"><img src="images/sojib.jpg" class="img-fluid rounded-circle mb-3" alt="image"></a>
+                    </div>
+                    <div class="col-lg-8 col-md-12 p-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum ipsa quasi possimus vel sapiente praesentium error saepe obcaecati? Corrupti! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo architecto sed asperiores dolorum reiciendis reprehenderit recusandae repellendus provident suscipit hic neque fuga tempora dolor ratione necessitatibus soluta aperiam veniam ut enim, cumque a ea commodi aliquid obcaecati? Natus ipsa sed modi officia similique libero officiis excepturi minima, fugit odit alias. nostrum et ab perferendis assumenda dignissimos, nobis laborum ipsam Deserunt facilis asperiores magnam eveniet nam cumque nisi harum. <a data-bs-toggle="collapse" href="#collapseExample"aria-expanded="false" aria-controls="collapseExample"> learn more..........</a></p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body text-dark mb-3">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta labore consectetur est in, reprehenderit ipsam earum quae, minima aspernatur eos distinctio nisi laborum. Nemo, beatae magnam sapiente maiores id quam? Quia mollitia ut, numquam libero ipsa architecto reiciendis facilis cum qui doloribus voluptas ad accusantium impedit praesentium maxime totam?
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-outline-primary mb-3">CV Download</button>
+                            <button class="btn btn-outline-primary mb-3">Project Download</button>
+                        </div>
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>If You!</strong> Follow me. <a href="#">click here</a>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <strong>If You!</strong> Follow me. <a href="#">click here</a>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <!-- about part end  -->
+            <!-- review part start  -->
+            <div class="customar-review bg-light text-center pb-3">
+                <div class="about-me text-center py-3">
+                    <h2 class="fw-bold">Customar Review</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                       <blockquote class="blockquote">
+                        <i class="fas fa-user-circle fa-3x"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sint vitae corporis laborum quis aliquid iste.He learn in <abbr title="Responsive Web Design">RWD</abbr></p>
+                        <footer class="blockquote-footer">
+                            Md Sojib Mia <cite title="Source Title">Web Designer</cite>
+                        </footer>
+                       </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                       <blockquote class="blockquote">
+                        <i class="fas fa-user-circle fa-3x"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sint vitae corporis laborum quis aliquid iste.He learn in <abbr title="Responsive Web Design">RWD</abbr></p>
+                        <footer class="blockquote-footer">
+                            Md Sojib Mia <cite title="Source Title">Web Designer</cite>
+                        </footer>
+                       </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                       <blockquote class="blockquote">
+                        <i class="fas fa-user-circle fa-3x"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus sint vitae corporis laborum quis aliquid iste.He learn in <abbr title="Responsive Web Design">RWD</abbr></p>
+                        <footer class="blockquote-footer">
+                            Md Sojib Mia <cite title="Source Title">Web Designer</cite>
+                        </footer>
+                       </blockquote>
+                    </div>
+                </div>
+            </div>
+            <!-- review part end -->
+            <!-- toggleable dynamic tab start  -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Education</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Skill</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Hobby</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Village</button>
+                </li>
+            </ul>
+              <div class="tab-content pb-3" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">Education is the backborn of the nationLorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae vel cupiditate accusantium veniam, consequatur aperiam quis assumenda sunt eligendi debitis recusandae harum at incidunt, adipisci id quaerat iusto? Consequatur.</div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Skill is the most importent thing  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nam atque quaerat officiis porro officia iusto asperiores commodi blanditiis at praesentium hic, ipsum enim, vitae necessitatibus minus temporibus? Officiis, cupiditate!</div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Hobby Every man has an hobby Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus adipisci exercitationem excepturi sint ut rerum ad laboriosam itaque error quod, quos distinctio, similique veritatis! Nihil earum recusandae ab ratione?</div>
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">Village Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe unde ratione quia id veniam, rerum eum adipisci iusto ea temporibus. Esse officiis possimus magnam exercitationem expedita neque temporibus ipsum eveniet.</div>
+              </div>
+
+            <!-- toggleable dynamic tab end  -->
+            <!-- list part start  -->
+            <ul class="list-group">
+                <li class="list-group-item bg-primary text-white active">Sojib</li>
+                <li class="list-group-item bg-secondary text-white">Hashi</li>
+                <li class="list-group-item bg-dark text-white">Nisan</li>
+                <li class="list-group-item bg-danger text-white">Abu</li>
+                <li class="list-group-item bg-info text-white">Hasnat</li>
+              </ul>
+            <!-- list part end -->
+            <!-- card part start  -->
+            <div class="tutorial-section">
+                <div class="title text-center mb-3">
+                    <h2 class="fw-bolder pt-3">Tutorial</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card mb-3 text-center">
+                            <div class="card-body">
+                                <img class="card-img-top" src="images/card-img.jpg" alt="card-img">
+                                <h3 class="card-title pt-3">HTML</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores vel mollitia tempore perspiciatis perferendis?</p>
+                                <a href="#" class="card-link stretched-link">Visite this site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-3 text-center">
+                            <div class="card-body">
+                                <img class="card-img-top" src="images/card-img.jpg" alt="card-img">
+                                <h3 class="card-title pt-3">HTML</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores vel mollitia tempore perspiciatis perferendis?</p>
+                                <a href="#" class="card-link stretched-link">Visite this site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-3 text-center">
+                            <div class="card-body">
+                                <img class="card-img-top" src="images/card-img.jpg" alt="card-img">
+                                <h3 class="card-title pt-3">HTML</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores vel mollitia tempore perspiciatis perferendis?</p>
+                                <a href="#" class="card-link stretched-link">Visite this site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-3 text-center">
+                            <div class="card-body">
+                                <img class="card-img-top" src="images/card-img.jpg" alt="card-img">
+                                <h3 class="card-title pt-3">HTML</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores vel mollitia tempore perspiciatis perferendis?</p>
+                                <a href="#" class="card-link stretched-link">Visite this site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card part end -->
+            <!-- media object start  -->
+
+            <div class="media-section bg-light mb-3">
+                <div class="about-me text-center py-3">
+                    <h2 class="fw-bold">My Blogs</h2>
+                </div>
+                <div class="d-flex p-2 border">
+                    <div class="flex-shrink-0">
+                        <img src="images/sojib.jpg" alt="media" class="rounded-circle mt-2" style="width: 100px;"/>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h3>I want to learning</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia quas atque ad cum. Aut officiis numquam explicabo ab unde.</p>
+                    </div>
+                </div>
+                <div class="d-flex p-2 border mt-3">
+                    <div class="flex-grow-1 ms-3">
+                      <h3>I want to learning</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia quas atque ad cum. Aut officiis numquam explicabo ab unde.</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="images/sojib.jpg" alt="media" class="rounded-circle mt-2" style="width: 100px;"/>
+                    </div>
+                </div>
+                <div class="d-flex p-2 border mt-3 align-items-center">
+                    <div class="flex-shrink-0">
+                        <img src="images/sojib.jpg" alt="media" class="rounded-circle" style="width: 100px;"/>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h3>I want to learning</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia quas atque ad cum. Aut officiis numquam explicabo ab unde.</p>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure voluptatibus dignissimos porro recusandae accusantium commodi aut consequatur culpa rem cupiditate ut, laudantium sapiente veniam velit ducimus. Nesciunt iusto assumenda temporibus architecto ipsum, voluptatibus sit ex culpa a laborum voluptates in labore! Ut beatae vel, nisi commodi veniam voluptate autem assumenda sequi! Perferendis fugit culpa sed hic, voluptate officia quam minus ipsam temporibus. Vel iusto, incidunt obcaecati velit voluptatum nihil, illo commodi eius ab atque similique optio voluptates maxime sed reiciendis dolores pariatur quo quae minus veniam placeat animi. Nulla aliquid nihil eaque non autem hic sequi praesentium velit facilis cupiditate?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- media object end -->
+            <!-- table part start -->
+            <table class="table table-bordered table-hover text-center">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">School & college</th>
+                        <th scope="col">GPA</th>
+                        <th scope="col">Mobile</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Sojib</th>
+                        <td>chharan high school</td>
+                        <td>4.50</td>
+                        <td>01300000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Hashi</th>
+                        <td>Girls high school</td>
+                        <td>5.00</td>
+                        <td>0173920000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sakib</th>
+                        <td>Kasobpur high school</td>
+                        <td>4.00</td>
+                        <td>0173920000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Monir</th>
+                        <td>Kasobpur high school</td>
+                        <td>4.00</td>
+                        <td>0173920000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- table part end -->
+            <!-- form part start  -->
+            <div class="registre_part bg-dark text-white">
+                <div class="text-center">
+                    <h2>User Register</h2>
+                </div>
+                <form action="#" class="p-3 w-50 m-auto">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" id="name" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" class="form-control" />
+                        <div class="form-text">
+                            <p>Its your personal information.so it dont share anyone</p>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check-inline">
+                            <input type="radio" name="gender" id="male" />
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input type="radio" name="gender" id="female" />
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" name="checkbox" id="checkbox" />
+                        <label for="checkbox" class="form-check-label">Accept All</label>
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Turn on this</label>
+                    </div>
+                    <div class="range_part">
+                        <label for="customRange1" class="form-label">Range it</label>
+                        <input type="range" class="form-range" id="customRange1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="department">Department</label>
+                        <select name="department" id="department" class="form-select mt-2">
+                            <option value="cse">CSE</option>
+                            <option value="bsc">BSC</option>
+                            <option value="bba">BBA</option>
+                            <option value="llb">LLB</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="click here to submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <!-- form part end -->
+            <!-- progress part start  -->
+            <div class="my-3">
+                <div class="progress mb-2" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 5%">Javascript</div>
+                </div>
+                <div class="progress mb-2" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 25%">bootstrap</div>
+                </div>
+                <div class="progress mb-2" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-warning" style="width: 50%">HTML</div>
+                </div>
+                <div class="progress mb-2" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-danger" style="width: 50%">CSS</div>
+                </div>
+            </div>
+            <!-- progress part end -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    its a bootstrap project
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-secondary">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center py-3">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </footer>
+        
+    </div>
+        
+
+
+
+   <!-- js ,jquery all link  -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
